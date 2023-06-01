@@ -47,3 +47,4 @@ const chooseClass = (hero) => {
         console.log(job.priest.attributes);
     }
 }
+
