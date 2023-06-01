@@ -1,0 +1,38 @@
+body {
+    border: solid;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fa8%2F30%2Fe4%2Fa830e4c1bc2d07348685ae2852909e6f.jpg&f=1&nofb=1&ipt=2731a1aac07c000e36af8dddbcdbaab5da7bdbf0ef3a7a9794cdbe02cdfdf70e&ipo=images);
+    color: white;
+    font-family: 'VT323', monospace;
+    text-shadow: 1px 1px 1px black;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    border: solid yellow;
+    padding-top: 4em;
+    text-align: center;
+
+}
+
+.videoContainer {
+    border: solid orange;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    border: solid red;
+}
+
+.buttonContainer {
+    border: solid blue;
+    display: flex;
+    vertical-align: top;
+    margin: 2em;
+}
+
+.button {
+    border: solid green;
+    margin: 1em;
+}

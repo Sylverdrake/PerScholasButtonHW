@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="box">
+            <!-- background -->
+            <h1 class="header">Choose your class</h1>
+            <!-- videoContainer -->
+            <div class="videoContainer"><iframe width="360" height="215" src="https://www.youtube.com/embed/qHoM6EfsUdM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+            <!-- jobContainer -->
+            <div class="jobContainer">
+            <!-- buttonContainer -->
+                <div class="buttonContainer">
+            <!-- Fighter Button -->
+                    <div class="button" onclick="chooseClass('warrior')">Do you want to be the Warrior?</div>
+            <!-- Wizard Button -->
+                    <div class="button" onclick="chooseClass('wizard')">Do you want to be the Wizard?</div>
+            <!-- Thief Button  -->
+                    <div class="button" onclick="chooseClass('thief')">Do you want to be the Thief?</div>
+            <!-- Priest Button -->
+                    <div class="button" onclick="chooseClass('priest')">Do you want to be the Priest?</div>
+                </div>
+            </div>
+        </div>
+        
+        <script src="script.js" async defer></script>
+    </body>
+</html>
